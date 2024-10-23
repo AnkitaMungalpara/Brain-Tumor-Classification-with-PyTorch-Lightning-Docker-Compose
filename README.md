@@ -6,7 +6,7 @@ Here's the updated README according to your requirements:
 
 This project demonstrates how to set up training, evaluation, and inference for **Brain Tumor Classification** using Docker and PyTorch Lightning. We employ Docker containers for environment consistency, and [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/) for structured, modular training, evaluation, and inference processes. The dataset used in this project is the [Brain Tumor Classification (MRI)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri) dataset, managed through Docker Compose.
 
-![Brain Tumor Classification](https://media.giphy.com/media/26xBKiR53CdyA/giphy.gif)
+![Brain Tumor Classification](data/class_images/output.gif)
 
 ## Table of Contents
 - [Requirements](#requirements-)
@@ -180,22 +180,18 @@ Check the predictions in the `predictions` folder. Below are some sample results
 <table>
   <tr>
     <td><img src="predictions/sample_87_prediction.png" width="100%"/><div style="text-align: center;"><br>Actual: Glioma Tumor <br> Predicted: Glioma Tumor <br> (Confidence: 1.00)</div></td>
-
     <td><img src="ppredictions/sample_91_prediction.png" width="100%"/><div style="text-align: center;"><br>Actual: Glioma Tumor <br> Predicted: Glioma Tumor <br> (Confidence: 1.00)</div></td>
   </tr>
   <tr>
     <td><img src="predictions/sample_192_prediction.png" width="100%"/><div style="text-align: center;"><br>Actual: Meningioma Tumor<br> Predicted: Meningioma Tumor <br> (Confidence: 1.00)</div></td>
-
     <td><img src="predictions/sample_246_prediction.png" width="100%"/><div style="text-align: center;"><br>Actual: Meningioma Tumor<br> Predicted: Meningioma Tumor <br> (Confidence: 0.81)</div></td>
   </tr>
   <tr>
     <td><img src="predictions/sample_384_prediction.png"  width="100%"/><div style="text-align: center;"><br>Actual: Normal <br> Predicted: Normal <br> (Confidence: 0.98)</div></td>
-
     <td><img src="predictions/sample_493_prediction.png" width="100%"/><div style="text-align: center;"><br>Actual: Pituitary Tumor <br> Predicted: Pituitary Tumor <br> (Confidence: 0.99)</div></td>
   </tr>
   <tr>
     <td><img src="predictions/sample_500_prediction.png"  width="100%"/><div style="text-align: center;"><br>Actual: Pituitary Tumor <br> Predicted: Pituitary Tumor <br> (Confidence: 0.51)</div></td>
-
     <td><img src="predictions/sample_524_prediction.png" width="100%"/><div style="text-align: center;"><br>Actual: Pituitary Tumor<br> Predicted: Meningioma Tumor <br> (Confidence: 0.43)</div></td>
   </tr>
 </table>
