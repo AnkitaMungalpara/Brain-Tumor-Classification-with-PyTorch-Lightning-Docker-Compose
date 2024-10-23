@@ -1,0 +1,5 @@
+data/dataset
+data/train
+data/validation
+model/
+venv/
