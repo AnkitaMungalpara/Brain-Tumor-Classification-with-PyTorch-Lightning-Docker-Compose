@@ -1,7 +1,3 @@
-Here's the updated README according to your requirements:
-
----
-
 # Brain Tumor 🧠 Classification with Docker Compose 🐳 and PyTorch Lightning ⚡ 
 
 This project demonstrates how to set up training, evaluation, and inference for **Brain Tumor Classification** using Docker and PyTorch Lightning. We employ Docker containers for environment consistency, and [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/) for structured, modular training, evaluation, and inference processes. The dataset used in this project is the [Brain Tumor Classification (MRI)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri) dataset, managed through Docker Compose.
