@@ -6,7 +6,9 @@ Here's the updated README according to your requirements:
 
 This project demonstrates how to set up training, evaluation, and inference for **Brain Tumor Classification** using Docker and PyTorch Lightning. We employ Docker containers for environment consistency, and [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/) for structured, modular training, evaluation, and inference processes. The dataset used in this project is the [Brain Tumor Classification (MRI)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri) dataset, managed through Docker Compose.
 
-![Brain Tumor Classification](data/class_images/output.gif)
+<div align="center">
+  <img src="data/class_images/output.gif" alt="Brain Tumor Classification">
+</div>
 
 ## Table of Contents
 - [Requirements](#requirements-)
@@ -41,7 +43,6 @@ The dataset used in this project is the [Brain Tumor Classification (MRI)](https
 <table>
   <tr>
     <td><img src="data/class_images/Glioma Tumor.jpg" alt="Glioma Tumor" width="100%"/><b>Glioma Tumor</b></td>
-
     <td><img src="data/class_images/Meningioma Tumor.jpg" alt="Meningioma Tumor" width="100%"/><b>Meningioma Tumor</b></td>
   </tr>
   <tr>
@@ -180,7 +181,7 @@ Check the predictions in the `predictions` folder. Below are some sample results
 <table>
   <tr>
     <td><img src="predictions/sample_87_prediction.png" width="100%"/><div style="text-align: center;"><br>Actual: Glioma Tumor <br> Predicted: Glioma Tumor <br> (Confidence: 1.00)</div></td>
-    <td><img src="ppredictions/sample_91_prediction.png" width="100%"/><div style="text-align: center;"><br>Actual: Glioma Tumor <br> Predicted: Glioma Tumor <br> (Confidence: 1.00)</div></td>
+    <td><img src="predictions/sample_91_prediction.png" width="100%"/><div style="text-align: center;"><br>Actual: Glioma Tumor <br> Predicted: Glioma Tumor <br> (Confidence: 1.00)</div></td>
   </tr>
   <tr>
     <td><img src="predictions/sample_192_prediction.png" width="100%"/><div style="text-align: center;"><br>Actual: Meningioma Tumor<br> Predicted: Meningioma Tumor <br> (Confidence: 1.00)</div></td>
